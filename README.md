@@ -17,4 +17,15 @@ Each row within our dataset is a youth tobacco survey entry conducted according 
 ## Two meaningful questions: 
 
 1.  How does education level affect the levels at which survey respondents use tobacco over time?
+  ![image](https://github.com/gaw63800/Group-Project-2-4610/assets/150155143/f68322fc-a75b-472d-a6a5-5f6149035670)
+
 2.  How does the number of people/density of people who frequently smoke change over time by state?
+
+### 1999 - 2005
+![image](https://github.com/gaw63800/Group-Project-2-4610/assets/150155143/352deb9d-5c62-4e2d-9024-929fb5ca9593)
+
+### 2006 - 2010 
+![image](https://github.com/gaw63800/Group-Project-2-4610/assets/150155143/8478af4c-1c51-4fcf-8b72-9812de41a0c6)
+
+### 2010 - 2017
+![image](https://github.com/gaw63800/Group-Project-2-4610/assets/150155143/ad67adc5-2740-472e-9a92-40febcee4514)
