@@ -30,7 +30,7 @@ Each row within our dataset is a youth tobacco survey entry conducted according 
 ### 2010 - 2017
 ![image](https://github.com/gaw63800/Group-Project-2-4610/assets/150155143/ad67adc5-2740-472e-9a92-40febcee4514)
 
-##Manipulation(s) during analysis:
+## Manipulation(s) during analysis:
 
 To accurately display the density of frequent smokers across the different periods, we had to change the color legends to be consistent with each other. The colors on the map accurately show the range of .13% - 10.83%. That way our map would show the same colors. 
 Tableau also helped us generate the longitude and latitude for each state based on the name. This allowed us to accurately plot on the map. 
