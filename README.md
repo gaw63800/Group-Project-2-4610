@@ -9,7 +9,7 @@ Gwen Wentworth
 
 ## Dataset Description:
 
-The YTS was developed to provide states with comprehensive data on both middle school and high school students regarding tobacco use, exposure to environmental tobacco smoke, smoking cessation, school curriculum, minors' ability to purchase or otherwise obtain tobacco products, knowledge and attitudes about tobacco, and familiarity with pro-tobacco and anti-tobacco media messages. The YTS uses a two-stage cluster sample design to produce representative samples of students in middle schools (grades 6–8) and high schools (grades 9–12). The data for the STATE System were extracted from Youth Tobacco Surveys from participating states. Tobacco topics included are cigarette smoking prevalence, cigarette smoking frequency, smokeless tobacco products prevalence, and quit attempts.
+The Youth Tabacco Survey (YTS) was developed to provide states with comprehensive data on both middle school and high school students regarding tobacco use, exposure to environmental tobacco smoke, smoking cessation, school curriculum, minors' ability to purchase or otherwise obtain tobacco products, knowledge and attitudes about tobacco, and familiarity with pro-tobacco and anti-tobacco media messages. The YTS uses a two-stage cluster sample design to produce representative samples of students in middle schools (grades 6–8) and high schools (grades 9–12). The data for the STATE System were extracted from Youth Tobacco Surveys from participating states. Tobacco topics included are cigarette smoking prevalence, cigarette smoking frequency, smokeless tobacco products prevalence, and quit attempts.
 
 ## Dataset Content(s):
 Each row within our dataset is a youth tobacco survey entry conducted according to the recorded year. The important columns we have focused on within this dataset are the year the YTS was conducted (YEAR), the state in which it was conducted(LocationDesc), the topic type being “tobacco usage” for all data entries(TopicType), the detailed description of that topic (TopicDesc), the source of our data (DataSource), the responses from the YTS (Response), the data value(Data_Value) and its data type (Data_Value_Type), which genders were focused per survey (Gender), what races were observed (Race), the age group(s) observed (Age), and the education level of the student(s) (Education).
@@ -17,7 +17,12 @@ Each row within our dataset is a youth tobacco survey entry conducted according 
 ## Two meaningful questions: 
 
 1.  How does education level affect the levels at which survey respondents use tobacco over time?
+
+   
   ![image](https://github.com/gaw63800/Group-Project-2-4610/assets/150155143/f68322fc-a75b-472d-a6a5-5f6149035670)
+
+Our question is meaningful because it is a topic that is relatively frequently researched. It is known that education level from middle to high school shows a very distinct age range, and age is a strong indicator of brain development, therefore, this question is more so linking age and brain development and using tobacco products. This is also a question that can be very useful for parents with children around this age; Some parents are very oblivious to assume “No, my middle or high schooler does not use tobacco products.” This display clearly shows that that is not true for many children of that age from this data set. In light of many recent campaigns to encourage open conversations between parents and their children about drug/alcohol safety, a display such as this will encourage parents to bridge that gap and join this movement of more open conversations about safety. 
+
 
 ## Analysis & Results:
 
@@ -29,14 +34,11 @@ According to our histogram data analysis comparing the education levels and thei
 ![image](https://github.com/gaw63800/Group-Project-2-4610/assets/150155143/7ca3d396-17e3-4a65-9e75-8be4a224cec6)
 
 
-### 1999 - 2005
-![image](https://github.com/gaw63800/Group-Project-2-4610/assets/150155143/352deb9d-5c62-4e2d-9024-929fb5ca9593)
+### Frequent smokers by Year
+![image](https://github.com/gaw63800/Group-Project-2-4610/assets/150155143/7a0e7dbc-1f50-42d9-b34a-029fe725ba8b)
 
-### 2006 - 2010 
-![image](https://github.com/gaw63800/Group-Project-2-4610/assets/150155143/8478af4c-1c51-4fcf-8b72-9812de41a0c6)
+This question is meaningful because we can see the various influences of social, economic, and cultural changes directly impacting the data. High smoking prevalence correlated with increased healthcare costs due to smoking related illnesses creates increasing healthcare costs. Also, states with stricter tobacco policies often experience declines in smoking rates which can aid in decreasing healthcare costs. We can track the data to use later to predict healthcare costs for the future. Analyzing smoking prevalence in different demographics alongside changing policies provides insights into the effectiveness of public health policies in place. The cultural norms continuously developing and “trends” coming and going reflects shifts in societal perceptions and behaviors. By integrating multiple data sources, researchers can uncover complex relationships between smoking behavior and socio-economic factors, informing evidence-based policies and interventions to reduce smoking prevalence and its associated burdens. 
 
-### 2010 - 2017
-![image](https://github.com/gaw63800/Group-Project-2-4610/assets/150155143/ad67adc5-2740-472e-9a92-40febcee4514)
 
 Based on the data analysis and results from our heat map, our team has concluded that tobacco usage among teenagers has overall been diminished across the United States as a whole. There are some outliers to the common pattern of decline in teenage tobacco usage, some of them being the states of Kentucky (KY), West Virginia(WV), and New Hampshire(NH). Looking solely at our data from 1999 to 2017, the states that appear to have little to no presence of teenage tobacco usage are California (CA), Utah (UT), Idaho (ID), Wyoming (WY), Colorado (CO), New Mexico (NM), Texas (TX), Iowa (IA), Virginia (VA), New York (NY), Maryland (MD), Vermont (VT), Massachusetts (MA), Rhode Island (RI), and Maine (ME).
 
@@ -45,6 +47,7 @@ Based on the data analysis and results from our heat map, our team has concluded
 
 To accurately display the density of frequent smokers across the different periods, we had to change the color legends to be consistent with each other. The colors on the map accurately show the range of .13% - 10.83%. That way our map would show the same colors. 
 Tableau also helped us generate the longitude and latitude for each state based on the name. This allowed us to accurately plot on the map. 
+
 
 
 
